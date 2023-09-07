@@ -1,0 +1,23 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "../../../../DSA_with_cpp"
+	},
+	{
+		"path": "../../../../python"
+	},
+	{
+		"path": "../apple_clone04"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "discord_home_clone03",
+    "[python]": {
+      "editor.defaultFormatter": "ms-python.autopep8"
+    },
+    "python.formatting.provider": "none"
+  }
+}

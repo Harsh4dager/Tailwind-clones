@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+:root {
+  --my-left-value: calc(100px - 3vw);
+  --another: calc(335px + 3vw);
+}
+.clip {
+  clip-path: polygon(30% 0%, 100% 0, 100% 100%, 30% 100%);
+}
+.v {
+  background-position: center bottom;
+}
+
+.custom-bg-img1 {
+  background-image: url(images/main_img_left.png);
+  background-position: left;
+}
+.custom-bg-img2 {
+  background-image: url(images/main_img_right.png);
+  background-position: center;
+}
+.left_img {
+  position: absolute;
+  bottom: -7rem;
+  left: 50%;
+  display: block;
+  height: auto;
+  width: auto;
+  max-width: none;
+  margin-left: -1030px;
+  -webkit-transform: none;
+  transform: none;
+}
+.right_img {
+  position: absolute;
+  display: block;
+  bottom: -7rem;
+  left: 50%;
+  margin-left: 370px;
+}
+@tailwind utilities;
